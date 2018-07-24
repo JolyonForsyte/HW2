@@ -6,7 +6,7 @@ public class Board {
 	public void addShape(Shape shape, int quadrant) {
 		if(quadrant > 0 && quadrant <= 4) {
 				s[quadrant-1] = shape;
-				System.out.println("В квадрант "+quadrant + " добавлена фигура "+shape);
+				System.out.println("New shape "+shape + "is added to quadrant "+ quadrant);
 		
 		}
 	}
@@ -14,7 +14,7 @@ public class Board {
 	public void removeShape(int quadrant) {
 		if(quadrant > 0 && quadrant <= 4) {
 			s[quadrant-1]=null;
-			System.out.println("Из квадранта "+quadrant + " удалена фигура ");
+			System.out.println("the shape has been removed from quadrant  "+quadrant);
 		}
 	}
 	
@@ -26,6 +26,6 @@ public class Board {
 			
 		}
 	}
-		System.out.println("Общая площадь фигур на доске: " + total);
+		System.out.println("Total area of shapes on the board: " + total);
 }
 }

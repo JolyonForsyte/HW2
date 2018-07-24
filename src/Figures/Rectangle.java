@@ -51,7 +51,7 @@ public class Rectangle extends Shape {
 
 	@Override
 	public String toString() {
-		return "Rectangle [apexD=" + apexD + ", apexE=" + apexE + ", apexF=" + apexF + ", apexG=" + apexG + "]";
+		return "Rectangle [apexD=" + apexD + ", apexE=" + apexE + ", apexF=" + apexF + ", apexG=" + apexG ;
 	}
 
 	@Override

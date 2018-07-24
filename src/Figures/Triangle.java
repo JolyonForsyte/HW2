@@ -42,7 +42,7 @@ public class Triangle extends Shape{
 
 	@Override
 	public String toString() {
-		return "Triangle [apexA=" + apexA + ", apexB=" + apexB + ", apexC=" + apexC + "]";
+		return "Triangle [apexA=" + apexA + ", apexB=" + apexB + ", apexC=" + apexC;
 	}
 
 	@Override
