@@ -26,6 +26,6 @@ public class Board {
 			
 		}
 	}
-		System.out.println("Суммарная площадь фигур на доске: " + total);
+		System.out.println("Общая площадь фигур на доске: " + total);
 }
 }
