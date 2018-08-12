@@ -22,7 +22,9 @@ public class FiguresMain {
 		board.addShape(rec, 3);
 		board.removeShape(2);
 		
-		board.showInfo();
+		System.out.println(board);
+	
+		
 	}
 
 }
